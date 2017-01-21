@@ -1,10 +1,10 @@
 # Misc folders
-src/[Bb]in/
-src/[Oo]bj/
-src/[Tt]emp/
-src/[Ll]ib/
-src/[Pp]ackages/
-src/[Bb]uild/
+/src/[Bb]in/
+/src/[Oo]bj/
+/src/[Tt]emp/
+/src/[Ll]ib/
+/src/[Pp]ackages/
+/src/[Bb]uild/
 *.sln.ide/
 
 # Build related
@@ -66,7 +66,7 @@ _ReSharper*
 _NCrunch_*
 
 # NuGet Packages Directory
-src/packages
+/src/packages
 
 # Windows
 Thumbs.db

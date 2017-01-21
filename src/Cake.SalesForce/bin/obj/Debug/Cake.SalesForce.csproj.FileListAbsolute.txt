@@ -1,0 +1,5 @@
+C:\Users\westley\Repos\Cake.Salesforce\src\Cake.SalesForce\bin\Debug\Cake.SalesForce.dll
+C:\Users\westley\Repos\Cake.Salesforce\src\Cake.SalesForce\bin\Debug\Cake.SalesForce.pdb
+C:\Users\westley\Repos\Cake.Salesforce\src\Cake.SalesForce\obj\Debug\Cake.SalesForce.csprojResolveAssemblyReference.cache
+C:\Users\westley\Repos\Cake.Salesforce\src\Cake.SalesForce\obj\Debug\Cake.SalesForce.dll
+C:\Users\westley\Repos\Cake.Salesforce\src\Cake.SalesForce\obj\Debug\Cake.SalesForce.pdb

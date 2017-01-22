@@ -52,6 +52,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Service References\SalesforcePartnerApi\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Services\SalesForceService.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +66,7 @@
     <None Include="app.config" />
     <None Include="packages.config" />
     <None Include="SalesforceMetadataApi.wsdl" />
+    <None Include="SalesforcePartnerApi.wsdl" />
     <None Include="Service References\SalesForceMetadataApi\Cake.SalesForce.SalesForceMetadataApi.AsyncResult.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -143,9 +149,338 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\SalesForceMetadataApi\SalesforceMetadataApi.wsdl" />
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.convertLeadResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.createResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DebuggingInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.deleteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DeleteResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeAllTabsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DescribeAppMenuItem.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeAppMenuResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DescribeApprovalLayout.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeApprovalLayoutResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DescribeAvailableQuickActionResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeAvailableQuickActionsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DescribeCompactLayout.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeCompactLayoutsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DescribeCompactLayoutsResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DescribeDataCategoryGroupResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeDataCategoryGroupsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DescribeDataCategoryGroupStructureResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeDataCategoryGroupStructuresResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DescribeFlexiPageResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeFlexiPagesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeGlobalResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DescribeGlobalResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DescribeGlobalTheme.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeGlobalThemeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeKnowledgeSettingsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeLayoutResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DescribeLayoutResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DescribeNounResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeNounsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DescribePathAssistant.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describePathAssistantsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describePrimaryCompactLayoutsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DescribeQuickActionResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeQuickActionsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeSearchableEntitiesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DescribeSearchableEntityResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DescribeSearchLayoutResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeSearchLayoutsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeSearchScopeOrderResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DescribeSearchScopeOrderResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeSObjectListViewsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeSObjectResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DescribeSObjectResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeSObjectsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeSoftphoneLayoutResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DescribeSoftphoneLayoutResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DescribeSoqlListView.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeSoqlListViewsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DescribeTab.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DescribeTabSetResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeTabsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DescribeThemeItem.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeThemeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.describeVisualForceResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.DescribeVisualForceResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.emptyRecycleBinResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.EmptyRecycleBinResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.executeListViewResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.ExecuteListViewResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.findDuplicatesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.FindDuplicatesResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.getDeletedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.GetDeletedResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.getServerTimestampResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.GetServerTimestampResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.getUpdatedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.GetUpdatedResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.getUserInfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.GetUserInfoResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.invalidateSessionsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.InvalidateSessionsResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.KnowledgeSettings.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.LeadConvertResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.LimitInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.loginResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.LoginResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.logoutResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.mergeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.MergeResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.PerformQuickActionResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.performQuickActionsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.processResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.ProcessResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.queryAllResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.queryMoreResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.queryResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.QueryResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.QuickActionTemplateResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.renderEmailTemplateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.RenderEmailTemplateResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.resetPasswordResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.ResetPasswordResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.retrieveQuickActionTemplatesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.retrieveResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.SaveResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.searchResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.SearchResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.sendEmailMessageResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.sendEmailResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.SendEmailResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.setPasswordResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.SetPasswordResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.sObject.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.undeleteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.UndeleteResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.updateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.upsertResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\Cake.SalesForce.SalesforcePartnerApi.UpsertResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SalesforcePartnerApi\SalesforcePartnerApi.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\SalesForceMetadataApi\" />
+    <WCFMetadataStorage Include="Service References\SalesforcePartnerApi\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\SalesForceMetadataApi\configuration91.svcinfo" />
@@ -159,7 +494,21 @@
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Service References\SalesforcePartnerApi\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SalesforcePartnerApi\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SalesforcePartnerApi\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SoapRequests\salesforce_soap_login.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
